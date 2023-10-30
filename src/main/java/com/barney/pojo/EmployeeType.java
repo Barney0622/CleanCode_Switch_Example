@@ -1,4 +1,4 @@
-package com.barney;
+package com.barney.pojo;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -8,5 +8,5 @@ import lombok.Getter;
 public enum EmployeeType {
     COMMISSIONE,
     HOURLY,
-    SALARIED;
+    SALARIED
 }
