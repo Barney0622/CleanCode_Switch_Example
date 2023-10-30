@@ -8,5 +8,6 @@ import lombok.Getter;
 public enum EmployeeType {
     COMMISSIONE,
     HOURLY,
-    SALARIED
+    SALARIED,
+    NEW_EMPLOYEE
 }
