@@ -1,4 +1,4 @@
-package com.barney.bad_emample_effect;
+package com.barney.bad_example_effect;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
