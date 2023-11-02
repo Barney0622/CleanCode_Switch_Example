@@ -41,12 +41,16 @@ public class Bad {
         switch (employee.getEmployeeType()) {
             case COMMISSIONE:
                 System.out.println("支票");
+                break;
             case SALARIED:
                 System.out.println("轉帳");
+                break;
             case HOURLY:
                 System.out.println("現金");
+                break;
             case NEW_EMPLOYEE:
                 System.out.println("楓幣");
+                break;
             default:
                 System.out.println("Barney的戶頭");
         }
