@@ -1,22 +1,22 @@
-package com.barney.factory_pattern_effect;
+package com.barney.factorypatterneffect;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-public class Commissione extends Employee {
+public class NewEmployee extends Employee{
     @Override
     public boolean isPayDay() {
         LocalDate today = LocalDate.now();
-        return today.getDayOfMonth() == 5;
+        return today.getDayOfMonth() == 1;
     }
 
     @Override
     public BigDecimal calculateMoney() {
-        return BigDecimal.valueOf(10000);
+        return BigDecimal.valueOf(40);
     }
 
     @Override
     public void deliverPay() {
-        System.out.println("支票");
+        System.out.println("楓幣");
     }
 }

@@ -1,4 +1,4 @@
-package com.barney.factory_pattern;
+package com.barney.factorypattern;
 
 import com.barney.pojo.EmployeeType;
 

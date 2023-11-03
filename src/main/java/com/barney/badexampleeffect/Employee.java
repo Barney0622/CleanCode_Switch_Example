@@ -1,4 +1,4 @@
-package com.barney.bad_example_effect;
+package com.barney.badexampleeffect;
 
 import com.barney.pojo.EmployeeType;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.barney.bad_example_effect;
+package com.barney.badexample;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -13,8 +13,6 @@ public class Bad {
                 return BigDecimal.valueOf(1000);
             case HOURLY:
                 return BigDecimal.valueOf(10);
-            case NEW_EMPLOYEE:
-                return BigDecimal.valueOf(40);
             default:
                 return BigDecimal.ZERO;
         }
@@ -30,8 +28,6 @@ public class Bad {
                 return today.getDayOfMonth() == 10;
             case HOURLY:
                 return today.getDayOfMonth() == 25;
-            case NEW_EMPLOYEE:
-                return today.getDayOfMonth() == 1;
             default:
                 return false;
         }
@@ -47,9 +43,6 @@ public class Bad {
                 break;
             case HOURLY:
                 System.out.println("現金");
-                break;
-            case NEW_EMPLOYEE:
-                System.out.println("楓幣");
                 break;
             default:
                 System.out.println("Barney的戶頭");
